@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!--header section-->
+            <div class="header">
+                <h2>DevDetective</h2>
+                <div class="dark">
+                    <p>DARK</p>
+                    <img src="./assets/images/moon-icon.svg" width="20" height="20">
+                </div>
+            </div>
+
+
+            <!--search bar from-->
+            <form type="submit" class="search-bar">
+                <img src="./assets/images/search-icon.svg" class="input-img" width="8px" height="">
+                <input type="search" id="input" placeholder="Enter a Github username .....">
+                <button class="btn-search">
+                    Search
+                </button>
+            </form>
+
+
+            <!--display information-->
+            <div class="info-container">
+                <div class="left-sde">
+                    <img id="user-image" src="./assets/images/karthik_project.jpeg" width="117" height="117" style="border-radius:50%;">
+
+
+                </div>
+                <div class="right-side">
+                    <div class="name-section">
+                        <p class="name">Deva Karthik</p>
+                        <p class="joined-date">Joined 05 May 2020</p>
+                    </div>
+                    <div class="github-link">
+                        <a href="#" class="htmlurl">@devakarthik</a>
+                    </div>
+                    <div class="about-user">
+                        <P class="user-bio">Ex @permissionles, Ex @gumlet,
+                            Frontend Developer at @we-frame,
+                            Core Member at @aec-coding-club,
+                            Technical Expert at @gsasansol</P>
+
+                    </div>
+                    <div class="stats">
+                        <div class="repos">
+                            <p class="ptext">Repos</p>
+                            <p class="numbers no_of_repos">20</p>
+                        </div>
+                        <div class="Followers">
+                            <p class="ptext">Followers</p>
+                            <p class="numbers no_of_followers">70</p>
+                        </div>
+                        <div class="Following">
+                            <p class="ptext">Following</p>
+                            <p class="numbers no_of_followings">220</p>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <div class="link-items location">
+                            <img src="./assets/images/location-icon.svg" width="" class="">
+                            <a class="location_name">Kolkata, India</a>
+
+                        </div>
+                        <div class="link-items git_link">
+                            <img src="./assets/images/website-icon.svg" class="">
+                            <a class="website-link">website-link</a>
+
+
+                        </div>
+                        <div class="link-items twitter">
+                            <img src="./assets/images/twitter-icon.svg" class="">
+                            <a href="#" class="twitter_link">thepranaygupta</a>
+
+                        </div>
+                        <div class="link-items company">
+                            <img src="./assets/images/company-icon.svg" class="inactive_links">
+                            <a class="inactive_links company_link">@TargetTechnology</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
